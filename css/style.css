@@ -136,3 +136,9 @@ figure.movie{max-width:72ch;margin:18px 0}
 figure.movie video{width:100%;border-radius:6px;background:#000}
 figure.movie img{width:100%;border-radius:6px}
 .person a.zoom{flex:none;display:block;cursor:zoom-in}
+figure.banner{max-width:620px}
+/* Home: research themes beside the fountain photo */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start}
+.interests.single{columns:1;margin:0}
+.themes-fig img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px}
+@media (max-width:760px){.split{grid-template-columns:1fr}}
